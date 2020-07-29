@@ -1,5 +1,14 @@
-# Introduction
+## Introduction
+The mobile robot creates a map of its environment using a Lidar sensor while moving around. Using a camera, it is able to detect posters of faces that are placed on the walls of the environment. It recognizes 5 different humans and puts a marker on the map where the respective image is located.
+In the virtual environment there is also a ball that moves around, which the robot is able to autonomously track and follow. The ROS nodes are written in C++ and Python.
 
+### Virtual Environment
+![alt text](Report/simulationEnvironment.jpg?raw=true)
+
+### Created Map
+![alt text](Report/mapCreated.jpg?raw=true)
+
+### Demonstration
 
 
 ## Instructions
