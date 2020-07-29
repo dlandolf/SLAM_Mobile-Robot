@@ -1,0 +1,14 @@
+<launch>
+    
+    <include file="$(find gmapping)/launch/slam_gmapping_pr2.launch"/>
+    <node pkg="rviz" name="rviz" type="rviz" output="screen"/>
+
+    <node pkg="keyboard_vel" type="keyboard_vel.py" name="keyboard_vel" output="screen"/>
+
+    <node pkg="image_recognition" type="image_converter" name="image_converter" output="screen"/>
+    <include file="$(find opencv_apps)/launch/face_recognition.launch"/>
+    <node pkg="image_recognition" type="marker_setter_laser" name="marker_setter_laser" output="screen"/>
+    <node pkg="image_recognition" type="marker_setter_map" name="marker_setter_map" output="screen"/>
+
+
+</launch>

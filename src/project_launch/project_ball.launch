@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="ball_recognition" type="ball_recognition_node" name="ball_recognition_node" output="screen"/>
+    <node pkg="ball_recognition" type="ball_tracking_node" name="ball_tracking_node" output="screen"/>
+
+</launch>

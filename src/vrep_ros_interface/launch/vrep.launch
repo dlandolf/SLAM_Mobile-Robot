@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="vrep_ros_interface" type="vrep_ros_interface" name="vrep_ros_interface" output="screen">
+      <remap from="/tf" to="/tf_static"/>
+    </node>
+</launch>

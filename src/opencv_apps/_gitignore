@@ -1,0 +1,8 @@
+build*/
+._*
+*.pyc
+.*
+*~
+
+# ignore png image generated from test
+test/*.png
