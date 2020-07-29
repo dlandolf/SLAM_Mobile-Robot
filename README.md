@@ -8,6 +8,7 @@ In the virtual environment there is also a ball that moves around, which the rob
 ### Created Map
 ![alt text](Report/mapCreated.jpg?raw=true)
 
+<img align="left" src="Report/mapCreated.jpg" width=96>
 ### Demonstration
 
 
