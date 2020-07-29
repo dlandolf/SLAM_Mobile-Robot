@@ -3,7 +3,7 @@ The mobile robot creates a map of its environment using a Lidar sensor while mov
 In the virtual environment there is also a ball that moves around, which the robot is able to autonomously track and follow. The ROS nodes are written in C++ and Python.
 
 ### Virtual Environment
-![alt text](Report/simulationEnvironment.jpg?raw=true&s=400)
+![alt text](Report/simulationEnvironment.jpg?s=400)
 
 
 ### Created Map
