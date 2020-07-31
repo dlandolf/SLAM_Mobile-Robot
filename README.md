@@ -1,5 +1,6 @@
 ## Introduction
-The mobile robot creates a map of its environment using a Lidar sensor while moving around. Using a camera, it is able to detect posters of faces that are placed on the walls of the environment. It recognizes 5 different humans and puts a marker on the map where the respective image is located.
+The mobile robot creates a map of its environment using a Lidar sensor while moving around. To do so, it needs to estimate its own location as well as the location of the walls and objects, which is called a Simultaneous Localisation and Mapping (SLAM) problem.
+Using a camera, it is able to detect posters of faces that are placed on the walls of the environment. It recognizes 5 different humans and puts a marker on the map where the respective image is located.
 In the virtual environment there is also a ball that moves around, which the robot is able to autonomously track and follow. The ROS nodes are written in C++ and Python.
 
 ### Virtual Environment
@@ -23,7 +24,6 @@ In the virtual environment there is also a ball that moves around, which the rob
 #### Ball Tracking Demo
 
 <img src="Report/TrackBallDemo.gif">
-
 
 
 ## Instructions
