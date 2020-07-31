@@ -4,13 +4,13 @@ In the virtual environment there is also a ball that moves around, which the rob
 
 ### Virtual Environment
 
-<p align="center">
+<p align="left">
   <img width="400" src="Report/simulationEnvironment.jpg">
 </p>
 
 ### Created Map
 
-<p align="center">
+<p align="left">
   <img width="400" src="Report/mapCreated.jpg">
 </p>
 
@@ -18,15 +18,12 @@ In the virtual environment there is also a ball that moves around, which the rob
 
 #### SLAM and Face Recognition Demo
 
-<p align="center">
-  <img width="400" src="Report/SLAMDemo.gif">
-</p>
+<img src="Report/SLAMDemo.gif">
 
 #### Ball Tracking Demo
 
-<p align="center">
-  <img width="400" src="Report/TrackBallDemo.gif">
-</p>
+<img src="Report/TrackBallDemo.gif">
+
 
 
 ## Instructions
