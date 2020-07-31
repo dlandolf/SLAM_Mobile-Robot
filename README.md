@@ -8,7 +8,6 @@ In the virtual environment there is also a ball that moves around, which the rob
   <img width="400" src="Report/simulationEnvironment.jpg">
 </p>
 
-
 ### Created Map
 
 <p align="center">
@@ -16,6 +15,18 @@ In the virtual environment there is also a ball that moves around, which the rob
 </p>
 
 ### Demonstration
+
+#### SLAM and Face Recognition Demo
+
+<p align="center">
+  <img width="400" src="Report/SLAMDemo.gif">
+</p>
+
+#### Ball Tracking Demo
+
+<p align="center">
+  <img width="400" src="Report/TrackBallDemo.gif">
+</p>
 
 
 ## Instructions
